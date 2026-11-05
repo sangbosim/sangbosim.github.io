@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 670" role="img" aria-labelledby="atlasTitle atlasDesc"><title id="atlasTitle">Conceptual urban flood depth and sewer coupling atlas</title><desc id="atlasDesc">Illustrative depth contours, urban blocks, storm sewer nodes and flow vectors. Not model output.</desc><defs><linearGradient id="base" x2="1" y2="1"><stop stop-color="#102b43"/><stop offset="1" stop-color="#0a1c2e"/></linearGradient><radialGradient id="water"><stop stop-color="#53e3dd" stop-opacity=".9"/><stop offset=".58" stop-color="#20b6c9" stop-opacity=".62"/><stop offset="1" stop-color="#13618d" stop-opacity="0"/></radialGradient><radialGradient id="deep"><stop stop-color="#fbc27d" stop-opacity=".9"/><stop offset=".68" stop-color="#ee8c66" stop-opacity=".5"/><stop offset="1" stop-color="#ee8c66" stop-opacity="0"/></radialGradient><pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="#7da0b2" stroke-opacity=".15" stroke-width=".7"/></pattern><marker id="arr" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0L6 3 0 6" fill="none" stroke="#baf1e9" stroke-width="1.2"/></marker></defs><rect width="840" height="670" fill="url(#base)"/><rect width="840" height="670" fill="url(#grid)"/><g transform="rotate(-11 420 338)"><rect x="55" y="95" width="730" height="493" fill="#0a2133" stroke="#41627a" stroke-width="1"/>
+<path d="M144 95V588" stroke="#1a3b50" stroke-width="29"/><path d="M144 95V588" stroke="#527386" stroke-width="1.5" stroke-dasharray="8 13" opacity=".5"/>
+<path d="M294 95V588" stroke="#1a3b50" stroke-width="29"/><path d="M294 95V588" stroke="#527386" stroke-width="1.5" stroke-dasharray="8 13" opacity=".5"/>
+<path d="M446 95V588" stroke="#1a3b50" stroke-width="29"/><path d="M446 95V588" stroke="#527386" stroke-width="1.5" stroke-dasharray="8 13" opacity=".5"/>
+<path d="M598 95V588" stroke="#1a3b50" stroke-width="29"/><path d="M598 95V588" stroke="#527386" stroke-width="1.5" stroke-dasharray="8 13" opacity=".5"/>
+<path d="M739 95V588" stroke="#1a3b50" stroke-width="29"/><path d="M739 95V588" stroke="#527386" stroke-width="1.5" stroke-dasharray="8 13" opacity=".5"/>
+<path d="M55 146H785" stroke="#1a3b50" stroke-width="30"/><path d="M55 146H785" stroke="#527386" stroke-width="1.5" stroke-dasharray="9 16" opacity=".5"/>
+<path d="M55 266H785" stroke="#1a3b50" stroke-width="30"/><path d="M55 266H785" stroke="#527386" stroke-width="1.5" stroke-dasharray="9 16" opacity=".5"/>
+<path d="M55 393H785" stroke="#1a3b50" stroke-width="30"/><path d="M55 393H785" stroke="#527386" stroke-width="1.5" stroke-dasharray="9 16" opacity=".5"/>
+<path d="M55 517H785" stroke="#1a3b50" stroke-width="30"/><path d="M55 517H785" stroke="#527386" stroke-width="1.5" stroke-dasharray="9 16" opacity=".5"/>
+<rect x="71.0" y="110.6" width="24.3" height="6.9" fill="#26495c" stroke="#5d788a" stroke-width=".9"/>
+<rect x="99.7" y="110.5" width="21.2" height="6.0" fill="#2b4c61" stroke="#5d788a" stroke-width=".9"/>
+<rect x="72.0" y="183.5" width="22.8" height="20.2" fill="#2b4c61" stroke="#5d788a" stroke-width=".9"/>
+<rect x="99.8" y="184.0" width="21.2" height="18.5" fill="#31516a" stroke="#5d788a" stroke-width=".9"/>
+<rect x="72.8" y="219.0" width="23.6" height="20.0" fill="#26495c" stroke="#5d788a" stroke-width=".9"/>
+<rect x="72.9" y="295.0" width="24.2" height="23.7" fill="#31516a" stroke="#5d788a" stroke-width=".9"/>
+<rect x="98.7" y="294.5" width="22.3" height="21.7" fill="#26495c" stroke="#5d788a" stroke-width=".9"/>
+<rect x="73.9" y="339.1" width="23.3" height="22.7" fill="#2b4c61" stroke="#5d788a" stroke-width=".9"/>
+<rect x="71.8" y="424.4" width="20.6" height="19.7" fill="#26495c" stroke="#5d788a" stroke-width=".9"/>
+<rect x="99.7" y="424.6" width="21.3" height="20.5" fill="#2b4c61" stroke="#5d788a" stroke-width=".9"/>
+<rect x="72.1" y="467.4" width="20.7" height="21.6" fill="#31516a" stroke="#5d788a" stroke-width=".9"/>
+<rect x="71.5" y="552.1" width="21.7" height="10.8" fill="#2b4c61" stroke="#5d788a" stroke-width=".9"/>
+<rect x="99.7" y="552.0" width="21.3" height="8.7" fill="#31516a" stroke="#5d788a" stroke-width=".9"/>
+<rect x="219.8" y="109.6" width="38.1" height="7.5" fill="#26495c" stroke="#5d788a" stroke-width=".9"/>
+<rect x="175.4" y="182.9" width="38.9" height="19.6" fill="#26495c" stroke="#5d788a" stroke-width=".9"/>
+<rect x="220.1" y="184.6" width="36.1" height="17.0" fill="#2b4c61" stroke="#5d788a" stroke-width=".9"/>
+<rect x="176.9" y="219.5" width="36.9" height="19.5" fill="#31516a" stroke="#5d788a" stroke-width=".9"/>
+<rect x="176.2" y="295.8" width="38.1" height="21.8" fill="#2b4c61" stroke="#5d788a" stroke-width=".9"/>
+<rect x="222.2" y="296.5" width="37.5" height="22.0" fill="#31516a" stroke="#5d788a" stroke-width=".9"/>
+<rect x="175.5" y="339.3" width="36.2" height="24.1" fill="#26495c" stroke="#5d788a" stroke-width=".9"/>
+<rect x="176.3" y="425.8" width="36.9" height="19.1" fill="#31516a" stroke="#5d788a" stroke-width=".9"/>
+<rect x="221.3" y="425.6" width="36.4" height="21.3" fill="#26495c" stroke="#5d788a" stroke-width=".9"/>
+<rect x="176.1" y="465.2" width="35.6" height="20.8" fill="#2b4c61" stroke="#5d788a" stroke-width=".9"/>
+<rect x="177.9" y="550.5" width="36.4" height="9.7" fill="#26495c" stroke="#5d788a" stroke-width=".9"/>
+<rect x="220.6" y="550.9" width="37.5" height="11.0" fill="#2b4c61" stroke="#5d788a" stroke-width=".9"/>
+<rect x="325.2" y="110.8" width="39.5" height="8.4" fill="#2b4c61" stroke="#5d788a" stroke-width=".9"/>
+<rect x="324.9" y="184.6" width="39.7" height="17.0" fill="#31516a" stroke="#5d788a" stroke-width=".9"/>
+<rect x="371.0" y="182.0" width="38.5" height="18.4" fill="#26495c" stroke="#5d788a" stroke-width=".9"/>
+<rect x="323.2" y="219.9" width="39.6" height="18.5" fill="#2b4c61" stroke="#5d788a" stroke-width=".9"/>
+<rect x="324.1" y="296.1" width="39.9" height="22.4" fill="#26495c" stroke="#5d788a" stroke-width=".9"/>
+<rect x="371.8" y="294.0" width="39.6" height="22.3" fill="#2b4c61" stroke="#5d788a" stroke-width=".9"/>
+<rect x="324.0" y="339.2" width="38.0" height="24.0" fill="#31516a" stroke="#5d788a" stroke-width=".9"/>
+<rect x="324.5" y="425.0" width="40.4" height="19.6" fill="#2b4c61" stroke="#5d788a" stroke-width=".9"/>
+<rect x="372.0" y="425.2" width="38.8" height="19.0" fill="#31516a" stroke="#5d788a" stroke-width=".9"/>
+<rect x="323.5" y="467.1" width="39.0" height="21.9" fill="#26495c" stroke="#5d788a" stroke-width=".9"/>
+<rect x="324.8" y="550.1" width="38.7" height="8.9" fill="#31516a" stroke="#5d788a" stroke-width=".9"/>
+<rect x="369.6" y="550.6" width="38.5" height="9.3" fill="#26495c" stroke="#5d788a" stroke-width=".9"/>
+<rect x="474.9" y="183.2" width="36.9" height="17.7" fill="#2b4c61" stroke="#5d788a" stroke-width=".9"/>
+<rect x="522.0" y="182.9" width="38.2" height="20.3" fill="#31516a" stroke="#5d788a" stroke-width=".9"/>
+<rect x="475.5" y="220.1" width="37.7" height="18.3" fill="#26495c" stroke="#5d788a" stroke-width=".9"/>
+<rect x="476.2" y="296.3" width="39.3" height="22.6" fill="#31516a" stroke="#5d788a" stroke-width=".9"/>
+<rect x="522.0" y="296.5" width="37.4" height="21.0" fill="#26495c" stroke="#5d788a" stroke-width=".9"/>
+<rect x="475.5" y="339.3" width="39.4" height="23.0" fill="#2b4c61" stroke="#5d788a" stroke-width=".9"/>
+<rect x="476.3" y="425.0" width="40.7" height="19.1" fill="#26495c" stroke="#5d788a" stroke-width=".9"/>
+<rect x="521.4" y="426.8" width="39.0" height="19.1" fill="#2b4c61" stroke="#5d788a" stroke-width=".9"/>
+<rect x="476.4" y="465.4" width="40.4" height="20.1" fill="#31516a" stroke="#5d788a" stroke-width=".9"/>
+<rect x="474.9" y="552.7" width="40.4" height="8.7" fill="#2b4c61" stroke="#5d788a" stroke-width=".9"/>
+<rect x="520.7" y="550.6" width="39.8" height="10.9" fill="#31516a" stroke="#5d788a" stroke-width=".9"/>
+<rect x="670.2" y="111.7" width="34.1" height="6.1" fill="#26495c" stroke="#5d788a" stroke-width=".9"/>
+<rect x="632.5" y="184.5" width="31.9" height="19.0" fill="#26495c" stroke="#5d788a" stroke-width=".9"/>
+<rect x="669.8" y="184.0" width="33.1" height="18.5" fill="#2b4c61" stroke="#5d788a" stroke-width=".9"/>
+<rect x="632.5" y="221.4" width="33.0" height="17.6" fill="#31516a" stroke="#5d788a" stroke-width=".9"/>
+<rect x="632.4" y="295.9" width="32.5" height="21.5" fill="#2b4c61" stroke="#5d788a" stroke-width=".9"/>
+<rect x="671.3" y="295.1" width="33.4" height="22.6" fill="#31516a" stroke="#5d788a" stroke-width=".9"/>
+<rect x="631.8" y="339.5" width="31.7" height="24.3" fill="#26495c" stroke="#5d788a" stroke-width=".9"/>
+<rect x="631.7" y="424.3" width="33.6" height="19.5" fill="#31516a" stroke="#5d788a" stroke-width=".9"/>
+<rect x="669.8" y="425.4" width="33.4" height="20.0" fill="#26495c" stroke="#5d788a" stroke-width=".9"/>
+<rect x="632.9" y="467.7" width="33.3" height="21.3" fill="#2b4c61" stroke="#5d788a" stroke-width=".9"/>
+<rect x="631.3" y="551.1" width="33.9" height="9.1" fill="#26495c" stroke="#5d788a" stroke-width=".9"/>
+<rect x="670.6" y="552.4" width="33.7" height="8.4" fill="#2b4c61" stroke="#5d788a" stroke-width=".9"/>
+</g><path d="M97 305C164 243 205 252 276 288C335 319 345 232 424 232C527 220 565 265 631 262C725 262 755 353 727 415C691 484 607 501 533 471C457 443 422 517 353 495C278 476 272 439 211 414C151 385 107 369 97 305Z" fill="#14698d" opacity=".48"/><path d="M146 330C206 281 248 296 307 318C371 348 397 268 451 264C533 260 556 305 620 302C688 298 704 361 673 413C643 468 572 448 510 433C449 414 408 477 344 453C277 435 257 392 207 374C172 362 155 348 146 330Z" fill="url(#water)"/><path d="M267 348C321 307 356 347 394 317C438 284 478 312 531 348C578 380 609 375 594 417C571 447 526 412 486 417C428 420 406 454 363 439C326 424 300 379 267 348Z" fill="url(#water)" opacity=".92"/><path d="M331 352C372 301 410 306 455 313C503 322 517 353 554 361C588 376 575 405 554 417C531 434 505 397 463 406C422 414 403 436 375 411C350 391 315 377 331 352Z" fill="url(#deep)"/>
+<path d="M99 305C156 246 205 256 273 287C334 306 342 239 424 235C521 221 574 259 633 264C735 264 756 364 723 411C693 472 607 504 531 471C464 444 420 510 353 493C279 476 279 437 211 412C151 383 118 367 99 305Z" fill="none" stroke="#46b5c3" stroke-width="1.4" stroke-dasharray="9 7" opacity=".48"/>
+<path d="M147 330C207 281 250 296 308 318C370 346 397 270 452 265C532 260 555 304 622 304C692 304 701 362 670 414C640 463 575 450 512 433C454 417 410 474 344 454C279 437 254 392 210 377C170 359 155 347 147 330Z" fill="none" stroke="#b5f2ed" stroke-width="1.4" stroke-dasharray="9 7" opacity=".68"/>
+<path d="M344 351C379 316 414 313 447 322C482 329 508 357 535 363C559 370 573 396 553 408C527 419 501 397 462 399C427 403 406 428 380 410C353 389 339 382 344 351Z" fill="none" stroke="#ffd1a1" stroke-width="1.4" stroke-dasharray="9 7" opacity=".73"/>
+<g fill="none" stroke="#d6f4db" stroke-width="2" stroke-dasharray="6 7"><path d="M150 448 286 417 414 443 534 383 668 424M286 417 295 319 412 327 534 383"/></g><g fill="#102c40" stroke="#befbe1" stroke-width="2.2">
+<circle cx="150" cy="448" r="6"/>
+<circle cx="286" cy="417" r="6"/>
+<circle cx="414" cy="443" r="6"/>
+<circle cx="534" cy="383" r="6"/>
+<circle cx="668" cy="424" r="6"/>
+<circle cx="295" cy="319" r="6"/>
+<circle cx="412" cy="327" r="6"/>
+</g><circle cx="534" cy="383" r="16" fill="none" stroke="#f7bd77" stroke-width="2" stroke-dasharray="3 4"/><circle cx="534" cy="383" r="23" fill="none" stroke="#f7bd77" opacity=".4"/><g fill="none" stroke="#c0f9f4" stroke-width="1.5" stroke-opacity=".7" marker-end="url(#arr)">
+<path d="M183 344l34 14"/>
+<path d="M237 341l34 14"/>
+<path d="M365 314l34 14"/>
+<path d="M441 354l34 14"/>
+<path d="M555 327l34 14"/>
+<path d="M617 382l34 14"/>
+<path d="M356 452l34 14"/>
+<path d="M475 452l34 14"/>
+</g><g font-family="Consolas,monospace" font-size="10" letter-spacing="1.5" fill="#d6f0eb"><path d="M541 379l48-62h89" fill="none" stroke="#eebd82" stroke-width="1.3"/><rect x="606" y="292" width="155" height="32" rx="4" fill="#10283a" stroke="#8ab7b7" stroke-opacity=".5"/><circle cx="621" cy="308" r="3.5" fill="#f2b777"/><text x="632" y="312" fill="#e7d1b1">MANHOLE EXCHANGE</text><path d="M286 417l-86 95H81" fill="none" stroke="#94e0d6" stroke-width="1.2"/><rect x="74" y="500" width="174" height="32" rx="4" fill="#10283a" stroke="#5e8b8d"/><circle cx="91" cy="516" r="3.5" fill="#b5efde"/><text x="102" y="520">1D SEWER NETWORK</text><text x="59" y="67" fill="#88b4c0">FIG. 01 / URBAN DOMAIN</text><text x="585" y="67" fill="#88b4c0">FVM / DUAL DRAINAGE</text><text x="57" y="620" fill="#8fb5c2">CONCEPTUAL FIELD</text><text x="573" y="620" fill="#8fb5c2">NOT MODEL OUTPUT</text></g><g stroke="#61889c" stroke-width="1" opacity=".65"><path d="M28 45h24m-12-12v24M789 45h24m-12-12v24M28 632h24m-12-12v24M789 632h24m-12-12v24"/></g></svg>
