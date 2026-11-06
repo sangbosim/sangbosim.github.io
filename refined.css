@@ -169,3 +169,48 @@ a:focus-visible,button:focus-visible{outline-color:#e6bd7a}
 @media(max-width:860px){.site-header{height:77px}.hero{padding:71px 0 22px;min-height:0}.hero-grid{grid-template-columns:1fr;gap:32px}.hero-copy{padding-bottom:0}.hero h1{font-size:clamp(47px,7.8vw,78px)}.hero-lead{max-width:690px}.hero-affiliation{margin-top:38px}.hero-visual{max-width:790px}.metrics-grid{padding:26px 0}.metric{padding:0 14px}.metric strong{font-size:clamp(35px,5.4vw,54px)}.projects-grid{grid-template-columns:1fr 1fr}.project-card:last-child{grid-column:span 2}.project-primary{grid-column:auto}.section{padding:86px 0}.site-header .mobile-nav{background:#0b293d}}
 @media(max-width:600px){html{scroll-padding-top:71px}.container{width:calc(100% - 38px)}.site-header{height:71px}.hero{padding:61px 0 22px}.hero-copy:before{top:-34px;font-size:8px}.hero-eyebrow{margin-bottom:21px}.hero h1{font-size:clamp(39px,9.25vw,58px);line-height:1.13;margin-bottom:24px}.hero-lead{font-size:14px;line-height:1.83;margin-bottom:21px}.discipline-tags{gap:7px;margin-bottom:24px}.discipline-tags span{font-size:9px;padding:7px}.hero-actions .button{font-size:11px;padding:13px;gap:7px}.hero-affiliation{margin-top:28px;padding-top:22px}.hero-visual{padding:8px;border-radius:8px}.visual-topline,.visual-bottomline{font-size:8px}.hydro-atlas{min-height:240px}.hydro-atlas img{height:auto;min-height:240px;object-fit:cover}.field-badge{font-size:7px;padding:5px 6px}.depth-scale{bottom:6px;right:5px;gap:5px;padding:7px}.depth-scale strong{font-size:7px}.depth-scale .depth-colors{width:93px;height:6px}.depth-scale .depth-values{font-size:7px}.hero-bottom{margin-top:22px}.metrics-grid{grid-template-columns:1fr;padding:11px 0}.metric,.metric:first-child{padding:16px 2px;flex-direction:row;gap:20px}.metric strong{min-width:75px;font-size:46px}.metric:not(:last-child){border-right:0;border-bottom:1px solid #d5e5e9}.section{padding:71px 0}.section-title{font-size:clamp(34px,8vw,45px)}.about-grid{grid-template-columns:1fr;gap:21px}.about-grid .body-large{font-size:17px}.projects-grid{grid-template-columns:1fr;gap:15px}.project-card,.project-card:last-child{grid-column:auto;min-height:0;padding:26px}.project-card .mini-diagram{height:102px;margin:20px 0}.feature-band{padding:66px 0}.feature-band h2{font-size:clamp(33px,8vw,43px)}.paper-main h3{font-size:15px;line-height:1.48}.output-columns{grid-template-columns:1fr;gap:24px}.contact-section{padding:72px 0}.contact-section h2{font-size:40px}}
 @media(prefers-reduced-motion:reduce){.hero-visual,.project-card{animation:none;transition:none}}
+
+/* Academic presentations, patents and software records */
+.enhanced-outputs{background:#eef3f3}
+.enhanced-outputs .section-intro{max-width:390px}
+.track-navigation{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:12px 0 68px}
+.track-navigation a{display:flex;align-items:center;gap:15px;padding:19px 20px;border:1px solid #cbdcdd;background:#fff;color:#173648;transition:border-color .2s,transform .2s,box-shadow .2s}
+.track-navigation a:hover{border-color:#3d9c9c;transform:translateY(-3px);box-shadow:0 14px 35px #11394c12}
+.track-navigation a>span:first-child{font:650 11px var(--mono);color:#308f90}
+.track-navigation a>span:nth-child(2){font-size:13px;font-weight:700;flex:1}
+.track-navigation a>b{font:600 12px var(--mono);color:#7c9ba2}
+.track-block{padding:42px 0 64px;border-top:1px solid #c7d9dc;scroll-margin-top:105px}
+.track-heading{display:grid;grid-template-columns:1fr minmax(230px,370px);gap:32px;align-items:end;margin-bottom:28px}
+.track-kicker{font:650 10px var(--mono);letter-spacing:.16em;color:#32858b;margin:0 0 16px}
+.track-heading h3{font:400 clamp(29px,3.5vw,47px)/1.14 var(--serif);letter-spacing:-.035em;color:#122e41;margin:0}
+.track-heading>p{font-size:13px;line-height:1.8;color:#587581;margin:0}
+.talk-filter{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:20px}
+.talk-filter-button{cursor:pointer;background:transparent;border:1px solid #c7d7da;color:#54727e;padding:9px 17px;font:600 11px var(--mono);transition:.2s}
+.talk-filter-button:hover,.talk-filter-button.is-active{background:#143649;border-color:#143649;color:#e9f8f6}
+.talk-record-list{border-top:1px solid #b6cbd0}
+.talk-record{display:grid;grid-template-columns:142px 1fr;gap:20px;padding:25px 6px;border-bottom:1px solid #c9d9db}
+.talk-record[hidden]{display:none}
+.talk-date{display:flex;align-items:flex-start;flex-direction:column;gap:12px}
+.talk-date strong{font:450 28px var(--serif);color:#1d5b70}
+.talk-date span{font:650 9px var(--mono);letter-spacing:.08em;color:#187b83;border:1px solid #a8c9cb;padding:5px 8px}
+.talk-event{font:650 10px var(--mono);letter-spacing:.06em;color:#2a7e89;margin-bottom:8px}
+.talk-info h4{font-size:clamp(15px,1.55vw,19px);line-height:1.45;letter-spacing:-.01em;font-weight:650;color:#173244;max-width:860px;margin:0 0 10px}
+.talk-info p{font-size:12px;line-height:1.7;color:#607987;margin:0 0 8px}
+.talk-info .talk-note{font-style:italic;color:#7d8e95}
+.author-role{font:600 9px var(--mono);color:#318a88}
+.talk-info .small-link{display:inline-block;margin-top:5px}
+.track-footnote{font-size:11px;color:#71878f;line-height:1.8;margin:16px 0 0}
+.ip-grid,.software-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px}
+.ip-card,.software-card{background:#fff;border:1px solid #d0e0e0;padding:29px 30px;min-width:0}
+.ip-state,.software-type{display:inline-block;font:650 10px var(--mono);letter-spacing:.08em;margin-bottom:20px}
+.ip-registered{color:#167f77}.ip-filed{color:#9a713b}.software-type{color:#287b89}
+.ip-card h4,.software-card h4{font:400 clamp(22px,2.2vw,31px)/1.25 var(--serif);color:#153449;letter-spacing:-.025em;margin:0 0 14px}
+.ip-card p,.software-card p{font-size:13px;line-height:1.75;color:#607884;margin:0 0 20px}
+.ip-card .ip-native{font-size:12px;color:#4e6d79}
+.ip-card dl{margin:25px 0;display:grid;gap:11px}
+.ip-card dl div{display:grid;grid-template-columns:100px 1fr;gap:10px;border-top:1px solid #e3eded;padding-top:10px}
+.ip-card dt{font:650 10px var(--mono);color:#75929a}
+.ip-card dd{margin:0;font-size:12px;color:#254658;overflow-wrap:anywhere}
+.software-card .record-check{background:#f0f6f5;border-left:2px solid #86a8ac;padding:11px 12px;font-size:11px;color:#5c7680}
+@media(max-width:850px){.track-navigation{margin-bottom:44px}.track-navigation a{padding:16px 12px;gap:8px}.track-heading{grid-template-columns:1fr;gap:13px}.track-heading>p{max-width:620px}}
+@media(max-width:600px){.track-navigation{grid-template-columns:1fr;gap:7px;margin-bottom:38px}.track-navigation a{padding:13px 16px}.track-block{padding:35px 0 48px}.track-heading h3{font-size:32px}.talk-record{grid-template-columns:1fr;gap:10px;padding:21px 2px}.talk-date{flex-direction:row;align-items:center;gap:14px}.talk-date strong{font-size:24px}.ip-grid,.software-grid{grid-template-columns:1fr}.ip-card,.software-card{padding:24px 20px}.ip-card dl div{grid-template-columns:90px 1fr}}
