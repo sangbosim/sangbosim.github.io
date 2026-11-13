@@ -1,6 +1,6 @@
 # Sang-Bo Sim · Research Portfolio
 
-A bilingual (EN/KR) research portfolio for Sang-Bo Sim (심상보), featuring urban flood modeling, HC-SURF / KICT-UF, high-performance computing, journal publications, presentations, and patents.
+A bilingual (EN/KR) research portfolio for Sang-Bo Sim (심상보), featuring the official KICT-UF and KICT-UF Lite urban flood model family, high-performance computing research, journal publications, presentations, and patents.
 
 **Technology:** HTML + CSS + vanilla JavaScript. No Node, no npm, no build step, no external fonts, no tracking scripts. Compatible with GitHub Pages.
 
@@ -93,3 +93,21 @@ Open this unzipped folder as a workspace. You can request changes in natural lan
 - All journal DOIs: see `publications.bib`.
 
 Last assembled: 2026-11-05.
+
+## Model names and technical source (November 2026)
+
+The website uses **KICT-UF** and **KICT-UF Lite** as the two official model names.
+
+| Technical component | KICT-UF | KICT-UF Lite |
+| --- | --- | --- |
+| 1D sewer hydraulics | EPA-SWMM 5.2 dynamic wave | EPA-SWMM 5.2 dynamic wave |
+| 2D surface flow | Dynamic wave (shallow-water equations) | Diffusive wave |
+| 2D numerical method | Finite-volume, HLLC Riemann solver | Finite-volume diffusive approximation |
+| Rainfall–runoff | SWMM subcatchment and distributed surface rainfall | SWMM subcatchment only |
+| Intended use | Detailed inundation/hydraulic analysis | Fast flood forecasting |
+
+Both use bidirectional sewer–surface exchange and fixed-time synchronization. The six-hour event within ten minutes is stated as a **development target** for KICT-UF Lite, not a universal verified runtime.
+
+Source: *KICT-UF User's Manual*, Version 6, November 2026, Chapter 1 (§§1.3–1.6). The manual itself is not included in this public repository.
+
+**Editorial policy:** HC-SURF is retained only where it occurs in an original publication title. GPU/MPI/mixed-precision is described as a research direction rather than a separate official product called “KICT-UF-HPC.” Software copyright registration numbers are not claimed without supporting certificates.
