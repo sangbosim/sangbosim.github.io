@@ -103,7 +103,7 @@ The website uses **KICT-UF** and **KICT-UF Lite** as the two official model name
 | 1D sewer hydraulics | EPA-SWMM 5.2 dynamic wave | EPA-SWMM 5.2 dynamic wave |
 | 2D surface flow | Dynamic wave (shallow-water equations) | Diffusive wave |
 | 2D numerical method | Finite-volume, HLLC Riemann solver | Finite-volume diffusive approximation |
-| Rainfall–runoff | SWMM subcatchment and distributed surface rainfall | SWMM subcatchment only |
+| Rainfall–runoff | Selectable SWMM subcatchment or distributed surface rainfall | SWMM subcatchment only |
 | Intended use | Detailed inundation/hydraulic analysis | Fast flood forecasting |
 
 Both use bidirectional sewer–surface exchange and fixed-time synchronization. The six-hour event within ten minutes is stated as a **development target** for KICT-UF Lite, not a universal verified runtime.
