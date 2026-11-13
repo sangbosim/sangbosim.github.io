@@ -214,3 +214,62 @@ a:focus-visible,button:focus-visible{outline-color:#e6bd7a}
 .software-card .record-check{background:#f0f6f5;border-left:2px solid #86a8ac;padding:11px 12px;font-size:11px;color:#5c7680}
 @media(max-width:850px){.track-navigation{margin-bottom:44px}.track-navigation a{padding:16px 12px;gap:8px}.track-heading{grid-template-columns:1fr;gap:13px}.track-heading>p{max-width:620px}}
 @media(max-width:600px){.track-navigation{grid-template-columns:1fr;gap:7px;margin-bottom:38px}.track-navigation a{padding:13px 16px}.track-block{padding:35px 0 48px}.track-heading h3{font-size:32px}.talk-record{grid-template-columns:1fr;gap:10px;padding:21px 2px}.talk-date{flex-direction:row;align-items:center;gap:14px}.talk-date strong{font-size:24px}.ip-grid,.software-grid{grid-template-columns:1fr}.ip-card,.software-card{padding:24px 20px}.ip-card dl div{grid-template-columns:90px 1fr}}
+
+
+/* KICT-UF / KICT-UF Lite model-family comparison, Manual V6 (Nov 2026) */
+.model-research{background:#f3f7f6}
+.model-research .section-head{margin-bottom:38px}
+.model-overview{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.model-panel{position:relative;overflow:hidden;display:flex;flex-direction:column;min-width:0;min-height:570px;padding:35px 36px;border:1px solid #a9c9ce;background:#0b2c41;color:#eaf6f6;box-shadow:0 15px 45px #092c3e16}
+.model-panel:before{content:"";position:absolute;right:-60px;top:-70px;width:310px;height:310px;border-radius:50%;background:radial-gradient(circle,#3caeb91e,transparent 68%);pointer-events:none}
+.model-panel-lite{background:#edf7f4;border-color:#b7d8d0;color:#163e43}
+.model-panel-lite:before{background:radial-gradient(circle,#72c8aa3c,transparent 68%)}
+.model-panel-top{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:30px}
+.model-panel-index{font:650 10px var(--mono);letter-spacing:.14em;color:#9bc4cf}
+.model-panel-lite .model-panel-index{color:#387d74}
+.model-panel-mark{font:600 11px var(--mono);border:1px solid #558396;padding:9px 10px;color:#8de6e1}
+.model-panel-lite .model-panel-mark{border-color:#91bcb0;color:#267d71}
+.model-panel-eyebrow{font:650 11px var(--mono);letter-spacing:.11em;color:#77d9d4;margin:0 0 11px}
+.model-panel-lite .model-panel-eyebrow{color:#2d8677}
+.model-panel h3{font:500 clamp(40px,4vw,62px)/1.08 var(--serif);letter-spacing:-.045em;color:inherit;margin:0 0 16px}
+.model-panel h3 em{font-weight:400;font-style:italic;color:#65b99e}
+.model-panel-lead{font-size:14px;line-height:1.82;color:#b9d1d9;max-width:520px;margin:0 0 25px;min-height:76px}
+.model-panel-lite .model-panel-lead{color:#4e6f6d}
+.model-pipeline{display:flex;align-items:center;gap:11px;margin:4px 0 26px;padding:15px 12px;background:#133a50;border:1px solid #2b5869;font:650 10px var(--mono);letter-spacing:.02em}
+.model-pipeline span,.model-pipeline strong{flex:1;text-align:center;white-space:normal}
+.model-pipeline i{font-size:19px;font-style:normal;color:#82dcd5}
+.model-pipeline strong{color:#83e5dc}
+.model-panel-lite .model-pipeline{background:#dbede7;border-color:#b5d5c9;color:#1a4a45}
+.model-panel-lite .model-pipeline strong,.model-panel-lite .model-pipeline i{color:#237b70}
+.model-spec{display:grid;grid-template-columns:128px 1fr;gap:12px;align-items:baseline;border-top:1px solid #345a6c;padding:13px 0}
+.model-spec>span{font:550 10px var(--mono);color:#8eb4bf}
+.model-spec>strong{font-size:12px;line-height:1.5;font-weight:650;color:#e0f0f0}
+.model-panel-lite .model-spec{border-color:#c2dbd3}
+.model-panel-lite .model-spec>span{color:#648d85}
+.model-panel-lite .model-spec>strong{color:#1c504b}
+.model-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto;padding-top:24px}
+.model-tags span{font:600 9px var(--mono);padding:7px 9px;border:1px solid #4b7684;color:#b4d8dd}
+.model-panel-lite .model-tags span{border-color:#aaccc1;color:#387b70}
+.model-common{display:grid;grid-template-columns:190px 1fr;gap:22px;align-items:center;padding:24px 29px;margin-top:15px;background:#dcebe9;border-left:3px solid #2a9c9a}
+.common-label{font:650 10px var(--mono);letter-spacing:.12em;color:#257d79}
+.model-common p{font-size:13px;line-height:1.85;color:#355d60;margin:0}
+.model-compare{margin-top:76px}
+.model-compare-heading{display:flex;align-items:end;justify-content:space-between;gap:28px;margin-bottom:25px}
+.model-compare-heading h3,.research-directions-heading h3{font:450 clamp(28px,3.5vw,46px)/1.16 var(--serif);letter-spacing:-.035em;color:#143647;margin:12px 0 0}
+.model-compare-heading>p{max-width:360px;font-size:12px;line-height:1.7;color:#647e84;margin:0}
+.model-table-wrap{overflow-x:auto;border:1px solid #d0e1e1;background:#fff}
+.model-table{width:100%;border-collapse:collapse;min-width:660px;text-align:left}
+.model-table thead{background:#14394c;color:#edf7f5}
+.model-table th,.model-table td{padding:18px 20px;border-bottom:1px solid #e0eaea;vertical-align:top;font-size:12px;line-height:1.6}
+.model-table thead th{font:650 11px var(--mono);letter-spacing:.06em;border-color:#356073}
+.model-table tbody th{width:29%;color:#406571;font-weight:650;background:#f8fbfa}
+.model-table tbody td{width:35.5%;color:#274f59}
+.model-table tbody tr:last-child td,.model-table tbody tr:last-child th{border-bottom:0}
+.model-target{font-size:12px;line-height:1.8;margin:17px 0 0;color:#5b747a}
+.model-target strong{color:#2b676b}
+.research-directions-heading{margin:84px 0 25px}
+.research-support-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:17px}
+.research-support-grid .project-card,.research-support-grid .project-card:last-child{grid-column:auto;min-height:480px}
+.research-support-grid .project-card>p:not(.project-sub){min-height:100px}
+@media(max-width:860px){.model-panel{padding:28px 24px;min-height:610px}.model-panel h3{font-size:clamp(37px,5vw,52px)}.model-spec{grid-template-columns:1fr;gap:3px}.model-common{grid-template-columns:1fr;gap:10px}.model-compare-heading{display:block}.model-compare-heading>p{margin-top:15px}.research-support-grid .project-card:last-child{grid-column:auto}}
+@media(max-width:600px){.model-overview,.research-support-grid{grid-template-columns:1fr}.model-panel{min-height:0;padding:27px 22px}.model-panel-lead{min-height:0}.model-panel h3{font-size:46px}.model-panel-top{margin-bottom:22px}.model-spec{grid-template-columns:115px 1fr;gap:10px}.model-pipeline{font-size:9px;gap:5px}.model-common{padding:20px}.model-compare{margin-top:55px}.research-directions-heading{margin:58px 0 20px}.research-support-grid .project-card,.research-support-grid .project-card:last-child{min-height:0}.model-table th,.model-table td{padding:14px 13px}}
