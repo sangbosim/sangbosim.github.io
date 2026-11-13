@@ -28,7 +28,7 @@
     softwareHeading:'도시침수 수치해석 소프트웨어',softwareDescription:'개발에 참여한 연구용 소프트웨어와 공식 프로그램 저작권 등록 여부를 구분합니다.',
     softwareDev:'연구용 소프트웨어 개발',softwareModelDescription:'SWMM 동역학파 기반 관망과 2차원 동역학파 지표해석을 연계하는 정밀 도시침수 수치모형입니다.',
     softwareHpcDescription:'2차원 확산파 지표해석과 SWMM 소유역 강우–유출을 적용하는 고속 이중배수 모형입니다. GPU·MPI 연산 최적화는 별도의 연구방향으로 구분합니다.',
-    softwareRegistryPending:'프로그램 저작권 등록번호: 공식 증빙 미확인',softwareOverview:'KICT 연구성과 ↗',softwareHpcPaper:'관련 학술논문 ↗',
+    softwareRegistryPending:'프로그램 저작권 등록번호: 공식 증빙 미확인',softwareOverview:'KICT 연구성과 ↗',softwareHpcPaper:'두 모형 비교 보기 ↗',
     softwareFootnote:'모형 개발 사실은 프로그램 저작권 등록을 의미하지 않습니다. 공식 등록증의 프로그램명·등록번호·권리자를 확인한 뒤 반영할 예정입니다.',
     modelPrecisionEyebrow:'정밀 수리현상 해석',modelPrecisionLead:'2차원 동역학파를 적용하여 지표 흐름의 운동량과 관성효과를 반영하는 정밀 이중배수 도시침수모형입니다.',
     modelLiteEyebrow:'고속 도시침수 예측',modelLiteLead:'2차원 확산파 근사를 적용하여 계산시간을 단축하는 효율적인 이중배수 도시침수모형입니다.',
